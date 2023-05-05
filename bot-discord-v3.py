@@ -135,7 +135,7 @@ def decimal_a_binario(decimal):
         binario = str(residuo) + binario
     return binario
 
-@bot.command()
+""" @bot.command()
 async def evalua(ctx):
     data = pd.read_excel('dataframe.xlsx',sheet_name='Sheet1')
     
@@ -231,7 +231,7 @@ async def evalua(ctx):
             data11.iloc[i,13] = "no"
 
     await ctx.send("Resultados:")
+ """
 
-
-bot.run('MTEwMzQ3MTUzOTQ4OTM2MjA2MQ.G_jVqz.0KWVKfLysKAA6Pyus8YtiHQJaJsXaDO1sBNLnU')
+bot.run('MTEwMzQ3MTUzOTQ4OTM2MjA2MQ.Gzv1KY.61F8e5KbEq9C2xLOzvVCGQ99VjykA6gjeOxO_E')
 
